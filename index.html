@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="funciones.js"></script>
+  </head>
+  <body>
+    <h1>Ejercicio Calculadora HTML - CSS - JS</h1>
+    <table>
+      <tr>
+        <td colspan="3"><input type="text" name="cadena" id="cadena" disabled></td>
+        <td><input type="submit" onclick="reset()" value="C"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" onclick="addNumber7()" value="7"></td>
+        <td><input type="submit" onclick="addNumber8()" value="8"></td>
+        <td><input type="submit" onclick="addNumber9()" value="9"></td>
+        <td><input type="submit" onclick="divisionSelected()" value="/"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" onclick="addNumber4()" value="4"></td>
+        <td><input type="submit" onclick="addNumber5()" value="5"></td>
+        <td><input type="submit" onclick="addNumber6()" value="6"></td>
+        <td><input type="submit" onclick="multiplicacionSelected()" value="x"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" onclick="addNumber1()" value="1"></td>
+        <td><input type="submit" onclick="addNumber2()" value="2"></td>
+        <td><input type="submit" onclick="addNumber3()" value="3"></td>
+        <td><input type="submit" onclick="restaSelected()" value="-"></td>
+      </tr>
+      <tr>
+        <td><input type="submit" onclick="addNumber0()" value="0"></td>
+        <td><input type="submit" onclick="addDecimal()" value="."></td>
+        <td><input type="submit" onclick="calcular()" value="="></td>
+        <td><input type="submit" onclick="sumaSelected()" value="+"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><input class="memoria" type="submit" onclick="" value="Guardar en memoria"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><input class="memoria" type="submit" onclick="" value="Recuperar memoria"></td>
+      </tr>
+      <tr>
+        <td colspan="4"><input class="memoria" type="submit" onclick="" value="Limpiar memoria"></td>
+      </tr>
+    </table>
+    <br>
+    <p>Marc Fortes Domínguez - 10/2019</p>
+  </body>
+</html>
